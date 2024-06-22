@@ -48,7 +48,7 @@ const Footer = () => {
             <span className="text-white text-xl">
               <BsFillPhoneFill />
             </span>
-            00968 97859628
+            +00 24187626
           </p>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Footer = () => {
             <span className="text-white text-xl">
               <BsFillPhoneFill />
             </span>
-            00968 97859628
+            +00 24187627
           </p>
         </div>
       </div>

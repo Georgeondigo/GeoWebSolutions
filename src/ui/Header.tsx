@@ -8,9 +8,20 @@ import Link from "next/link";
 import { reactBdLogo } from "@/assets";
 import SideNav from "./SideNav";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
+
+const navigation = [
+  { title: "Home", link: "/" },
+  { title: "About us", link: "/about" },
+  { title: "Services", link: "/services" },
+  { title: "Faq", link: "/faq" },
+  { title: "Blog", link: "/blog" },
+  { title: "Contact", link: "/contact" },
+];
 
 const Header = () => {
   let [toggleNav, setToggleNav] = useState(false);
+  const pathname = usePathname();
 
   const [navSize, setNavSize] = useState("90px");
   const [navColor, setNavColor] = useState("#161616");
@@ -53,51 +64,27 @@ const Header = () => {
             {/* ================= Header logo end here =================== */}
             {/* ================= Header Nav Link start here =================== */}
             <div className="relative">
-              <ul className="hidden lgl:flex items-center gap-6 xl:gap-12 uppercase font-titleFont tracking-[3px] text-[14px] font-semibold">
-                <Link href="/">
-                  <li className="relative px-3 group hover:cursor-pointer overflow-hidden py-1">
-                    Home
-                    <span className="w-full h-[2px] group-hover:bg-secondaryColor absolute left-0 bottom-0 translate-y-[1px] transition-hover duration-100"></span>
-                    <span className="w-[2px] h-[10px] group-hover:bg-secondaryColor absolute left-0 bottom-0 -translate-x-[1px] transition-translate duration-100 "></span>
-                  </li>
-                </Link>
-                <Link href="/aboutus">
-                  <li className="relative px-3 group hover:cursor-pointer py-1 overflow-hidden">
-                    About Us
-                    <span className="w-full h-[2px] group-hover:bg-secondaryColor absolute left-0 bottom-0 translate-y-[1px] transition-hover duration-100"></span>
-                    <span className="w-[2px] h-[10px] group-hover:bg-secondaryColor absolute left-0 bottom-0 -translate-x-[1px] transition-translate duration-100 "></span>
-                  </li>
-                </Link>
-                <Link href="/services">
-                  <li className="px-3 group hover:cursor-pointer py-1 flex items-center gap-1 relative overflow-hidden">
-                    Services
-                    <span className="w-full h-[2px] group-hover:bg-secondaryColor absolute left-0 bottom-0 translate-y-[1px] transition-hover duration-100"></span>
-                    <span className="w-[2px] h-[10px] group-hover:bg-secondaryColor absolute left-0 bottom-0 -translate-x-[1px] transition-translate duration-100 "></span>
-                  </li>
-                </Link>
-                <Link href="/faq">
-                  <li className="relative px-3 group hover:cursor-pointer py-1 overflow-hidden">
-                    FAQ
-                    <span className="w-full h-[2px] group-hover:bg-secondaryColor absolute left-0 bottom-0 translate-y-[1px] transition-hover duration-100"></span>
-                    <span className="w-[2px] h-[10px] group-hover:bg-secondaryColor absolute left-0 bottom-0 -translate-x-[1px] transition-translate duration-100 "></span>
-                  </li>
-                </Link>
-                <Link href="/blog">
-                  <li className="relative px-3 group hover:cursor-pointer py-1 overflow-hidden">
-                    Blog
-                    <span className="w-full h-[2px] group-hover:bg-secondaryColor absolute left-0 bottom-0 translate-y-[1px] transition-hover duration-100"></span>
-                    <span className="w-[2px] h-[10px] group-hover:bg-secondaryColor absolute left-0 bottom-0 -translate-x-[1px] transition-translate duration-100 "></span>
-                  </li>
-                </Link>
-
-                <Link href="/contact">
-                  <li className="relative px-3 group hover:cursor-pointer py-1 overflow-hidden">
-                    Contact
-                    <span className="w-full h-[2px] group-hover:bg-secondaryColor absolute left-0 bottom-0 translate-y-[1px] transition-hover duration-100"></span>
-                    <span className="w-[2px] h-[10px] group-hover:bg-secondaryColor absolute left-0 bottom-0 -translate-x-[1px] transition-translate duration-100 "></span>
-                  </li>
-                </Link>
-              </ul>
+              <div className="hidden lgl:flex items-center gap-6 xl:gap-12 uppercase font-titleFont tracking-[3px] text-[14px] font-semibold">
+                {navigation?.map((item) => (
+                  <Link
+                    key={item?.title}
+                    href={item?.link}
+                    className="relative px-3 group hover:cursor-pointer overflow-hidden py-1"
+                  >
+                    {item?.title}
+                    <span
+                      className={`w-full h-[2px] group-hover:bg-secondaryColor absolute left-0 bottom-0 translate-y-[1px] transition-hover duration-100 ${
+                        item?.link === pathname && "bg-secondaryColor"
+                      }`}
+                    ></span>
+                    <span
+                      className={`w-[2px] h-[10px] group-hover:bg-secondaryColor absolute left-0 bottom-0 -translate-x-[1px] transition-translate duration-100 ${
+                        item?.link === pathname && "bg-secondaryColor"
+                      }`}
+                    ></span>
+                  </Link>
+                ))}
+              </div>
               {/* ================== Header Small Icon start here ================== */}
 
               <div
