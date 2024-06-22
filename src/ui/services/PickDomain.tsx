@@ -136,8 +136,8 @@ const PickDomain = () => {
         >
           <p className="text-base text-darkText leading-[28px] tracking-wide hover:text-gray-300 duration-300">
             These all factors should be considered when you are going to choose
-            a domain name. But it's fine if you disregard any of them as your
-            convenience to focus on others.
+            a domain name. But it&apos;s fine if you disregard any of them as
+            your convenience to focus on others.
           </p>
         </motion.div>
       </div>
