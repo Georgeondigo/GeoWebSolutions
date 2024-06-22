@@ -7,6 +7,49 @@ import { motion } from "framer-motion";
 import TitleBanner from "@/ui/TitleBanner";
 import ServicesDetails from "@/ui/ServicesDetails";
 
+export const srevicesData = [
+  {
+    no: "01",
+    title: "Portfolio making",
+    startingAmt: "3000",
+    detailsOne: "Fully designed components",
+    detailsTwo: "Highly Responsive",
+    detailsThree: "Single page Application",
+    detailsFour: "Source code available",
+    detailsFive: "Deploy anywhere you want",
+  },
+  {
+    no: "02",
+    title: "Single page Website",
+    startingAmt: "5000",
+    detailsOne: "Fully designed components",
+    detailsTwo: "Highly Responsive",
+    detailsThree: "Single page Application",
+    detailsFour: "Source code available",
+    detailsFive: "Deploy anywhere you want",
+  },
+  {
+    no: "03",
+    title: "Chatting App",
+    startingAmt: "15000",
+    detailsOne: "Fully designed components",
+    detailsTwo: "Highly Responsive",
+    detailsThree: "Single page Application",
+    detailsFour: "Source code available",
+    detailsFive: "Deploy anywhere you want",
+  },
+  {
+    no: "04",
+    title: "E-commerce website",
+    startingAmt: "20000",
+    detailsOne: "Fully designed components",
+    detailsTwo: "Highly Responsive",
+    detailsThree: "Single page Application",
+    detailsFour: "Source code available",
+    detailsFive: "Deploy anywhere you want",
+  },
+];
+
 const Services = () => {
   let [development, setDevelopment] = useState(true);
   let [design, setDesign] = useState(false);
@@ -111,46 +154,19 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          <ServicesDetails
-            no="01"
-            title="Portfolio making"
-            startingAmt="3000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code available"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="02"
-            title="Single page Website"
-            startingAmt="5000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="03"
-            title="Chatting App"
-            startingAmt="15000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="04"
-            title="E-commerce website"
-            startingAmt="20000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
+          {srevicesData.map((item) => (
+            <ServicesDetails
+              key={item?.no}
+              no={item?.no}
+              title={item?.title}
+              startingAmt={item?.startingAmt}
+              detailsOne={item?.detailsOne}
+              detailsTwo={item?.detailsTwo}
+              detailsThree={item?.detailsThree}
+              detailsFour={item?.detailsFour}
+              detailsFive={item?.detailsFive}
+            />
+          ))}
         </motion.div>
       )}
       {/* ===================== Development end here ====================== */}
@@ -169,46 +185,19 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          <ServicesDetails
-            no="01"
-            title="Logo Design"
-            startingAmt="1000"
-            detailsOne="Logo with any theme"
-            detailsTwo="Paid icon will be given"
-            detailsThree="png, pdf, webp supported"
-            detailsFour="source file available"
-            detailsFive="Delivery within a day"
-          />
-          <ServicesDetails
-            no="02"
-            title="Single page Design"
-            startingAmt="5000"
-            detailsOne="single page web design"
-            detailsTwo="Maximum six coomponents"
-            detailsThree="Customized color option"
-            detailsFour="Images need to provide"
-            detailsFive="Modify multiple times"
-          />
-          <ServicesDetails
-            no="03"
-            title="Mobile Application"
-            startingAmt="10000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="04"
-            title="E-commerce website"
-            startingAmt="20000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
+          {srevicesData.map((item) => (
+            <ServicesDetails
+              key={item?.no}
+              no={item?.no}
+              title={item?.title}
+              startingAmt={item?.startingAmt}
+              detailsOne={item?.detailsOne}
+              detailsTwo={item?.detailsTwo}
+              detailsThree={item?.detailsThree}
+              detailsFour={item?.detailsFour}
+              detailsFive={item?.detailsFive}
+            />
+          ))}
         </motion.div>
       )}
       {/* ===================== Design end here =========================== */}
@@ -227,46 +216,19 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          <ServicesDetails
-            no="01"
-            title="Portfolio making"
-            startingAmt="3000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code available"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="02"
-            title="Single page Website"
-            startingAmt="5000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="03"
-            title="Chatting App"
-            startingAmt="15000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="04"
-            title="E-commerce website"
-            startingAmt="20000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
+          {srevicesData.map((item) => (
+            <ServicesDetails
+              key={item?.no}
+              no={item?.no}
+              title={item?.title}
+              startingAmt={item?.startingAmt}
+              detailsOne={item?.detailsOne}
+              detailsTwo={item?.detailsTwo}
+              detailsThree={item?.detailsThree}
+              detailsFour={item?.detailsFour}
+              detailsFive={item?.detailsFive}
+            />
+          ))}
         </motion.div>
       )}
       {/* ===================== Domain end here =========================== */}
@@ -285,46 +247,19 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          <ServicesDetails
-            no="01"
-            title="Portfolio making"
-            startingAmt="3000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code available"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="02"
-            title="Single page Website"
-            startingAmt="5000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="03"
-            title="Chatting App"
-            startingAmt="15000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
-          <ServicesDetails
-            no="04"
-            title="E-commerce website"
-            startingAmt="20000"
-            detailsOne="Fully designed components"
-            detailsTwo="Highly Responsive"
-            detailsThree="Single page Application"
-            detailsFour="Source code will be given"
-            detailsFive="Deploy anywhere you want"
-          />
+          {srevicesData.map((item) => (
+            <ServicesDetails
+              key={item?.no}
+              no={item?.no}
+              title={item?.title}
+              startingAmt={item?.startingAmt}
+              detailsOne={item?.detailsOne}
+              detailsTwo={item?.detailsTwo}
+              detailsThree={item?.detailsThree}
+              detailsFour={item?.detailsFour}
+              detailsFive={item?.detailsFive}
+            />
+          ))}
         </motion.div>
       )}
       {/* ===================== Hosting end here ========================== */}

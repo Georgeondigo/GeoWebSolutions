@@ -58,7 +58,7 @@ const Faq = () => {
                 key={item?._id}
                 as="div"
                 className="p-6"
-                defaultOpen={true}
+                defaultOpen={false}
               >
                 <DisclosureButton className="group relative flex w-full items-center justify-between">
                   <p

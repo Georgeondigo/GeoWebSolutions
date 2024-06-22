@@ -1,7 +1,8 @@
-import React from "react";
+"use client";
 import { GiCheckMark } from "react-icons/gi";
 import ContactUs from "./ContactUs";
-import { useRouter } from "next/navigation";
+import { Button, Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
+import { useState } from "react";
 
 const ServicesDetails = ({
   no,
@@ -21,12 +22,15 @@ const ServicesDetails = ({
     { id: 1005, title: detailsFive },
   ];
 
-  const data = { title, startingAmt, servicesDetailsData };
-  const router = useRouter();
+  let [isOpen, setIsOpen] = useState(false);
+
+  function close() {
+    setIsOpen(false);
+  }
 
   const handleOrder = (e: any) => {
     e.preventDefault();
-    // router.push("/orders");
+    setIsOpen(true);
   };
   return (
     <>
@@ -66,6 +70,42 @@ const ServicesDetails = ({
           <ContactUs buttonData="Order Now" />
         </div>
       </div>
+      <Dialog
+        open={isOpen}
+        as="div"
+        className="relative z-10 focus:outline-none"
+        onClose={close}
+      >
+        <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
+          <div className="flex min-h-full items-center justify-center p-4">
+            <DialogPanel
+              transition
+              className="w-full max-w-md rounded-xl bg-secondaryColor/5 p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0"
+            >
+              <DialogTitle
+                as="h3"
+                className="text-base/7 font-medium text-white uppercase tracking-wide"
+              >
+                {title}
+              </DialogTitle>
+              <p className="mt-2 text-sm/6 text-white/50">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Maiores eaque pariatur magni quam dicta facere qui doloribus
+                quaerat obcaecati, repudiandae beatae explicabo, cum vitae
+                blanditiis id omnis necessitatibus iste voluptatibus.
+              </p>
+              <div className="mt-4">
+                <Button
+                  className="inline-flex items-center gap-2 rounded-md bg-secondaryColor/50 py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-secondaryColor/10 focus:outline-none data-[hover]:bg-secondaryColor data-[focus]:outline-1 data-[focus]:outline-white data-[open]:bg-gray-700"
+                  onClick={close}
+                >
+                  Got it, thanks!
+                </Button>
+              </div>
+            </DialogPanel>
+          </div>
+        </div>
+      </Dialog>
     </>
   );
 };
