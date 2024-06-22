@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import TitleBanner from "@/ui/TitleBanner";
 import ServicesDetails from "@/ui/ServicesDetails";
 
-export const srevicesData = [
+const srevicesData = [
   {
     no: "01",
     title: "Portfolio making",
