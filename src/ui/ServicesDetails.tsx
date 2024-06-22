@@ -26,7 +26,7 @@ const ServicesDetails = ({
 
   const handleOrder = (e: any) => {
     e.preventDefault();
-    router.push("/orders");
+    // router.push("/orders");
   };
   return (
     <>

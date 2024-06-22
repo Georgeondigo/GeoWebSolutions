@@ -1,49 +1,55 @@
 import {
-  projectCyberBlog,
-  projectAmazonClone,
-  projectDynamicPortfolio,
-  projectEducare,
-  projectOrebiShop,
-  projectNoorShop,
+  eCommerceProImg,
+  movieStudioImg,
+  cyberBlogImg,
+  amazonCloneImg,
+  portfolioImg,
+  portfolioImgTwo,
 } from "../assets/index";
 
 // =================== Project Data start here ======================
 export let projectsData = [
   {
     _id: 1001,
-    image: projectEducare,
-    title: "Educare English Learning Academy",
+    image: eCommerceProImg,
+    title: "Supergear Online Shopping",
     des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    link: "https://ecommercepro.reactbd.com/",
   },
   {
     _id: 1002,
-    image: projectCyberBlog,
-    title: "Cyber Security Blog",
+    image: movieStudioImg,
+    title: "Movie Studio",
     des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    link: "https://moviestudio.reactbd.com/",
   },
   {
     _id: 1003,
-    image: projectAmazonClone,
-    title: "Amazon Clone 2.0",
+    image: cyberBlogImg,
+    title: "Personalized Blog Website",
     des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    link: "https://blog.reactbd.com/",
   },
   {
     _id: 1004,
-    image: projectNoorShop,
-    title: "Noor Online Shopping",
+    image: amazonCloneImg,
+    title: "Amazon Clone Pro",
     des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    link: "https://amazon.reactbd.com/",
   },
   {
     _id: 1005,
-    image: projectOrebiShop,
+    image: portfolioImgTwo,
     title: "Orebi Online Shopping",
     des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    link: "https://myprofile.reactbd.com/",
   },
   {
     _id: 1006,
-    image: projectDynamicPortfolio,
+    image: portfolioImg,
     title: "Dynamic Portfolio",
     des: "Personalize Blog where you can view your content and others can share their contents once you approved.",
+    link: "https://freeportfolioone.reactbd.com/",
   },
 ];
 // =================== Project Data end here ========================

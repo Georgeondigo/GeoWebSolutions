@@ -25,16 +25,14 @@ import aboutUsImgOne from "./pages/aboutUs/aboutUsImgOne.webp";
 import aboutUsImgTwo from "./pages/aboutUs/aboutUsImgTwo.webp";
 import aboutUsImgThree from "./pages/aboutUs/aboutUsImgThree.webp";
 // ================ Porject Images Start here ====================
-import projectEducare from "./projects/educare.webp";
-import projectCyberBlog from "./projects/cyberBlog.webp";
-import projectAmazonClone from "./projects/amazonClone.webp";
-import projectNoorShop from "./projects/noorShop.webp";
-import projectOrebiShop from "./projects/orebiShopping.png";
-import projectModernPayment from "./projects/modernPayment.webp";
-import projectPetroli from "./projects/petroli.webp";
-import projectSaharaDemo from "./projects/saharaDemo.webp";
-import projectHseDesign from "./projects/hseDesign.webp";
-import projectDynamicPortfolio from "./projects/dynamicPortfolio.png";
+
+import eCommerceProImg from "@/assets/project/eCommercePro.png";
+import movieStudioImg from "@/assets/project/movieStudio.png";
+import cyberBlogImg from "@/assets/project/cyberBlog.webp";
+import amazonCloneImg from "@/assets/project/amazonClone.png";
+import orebiShoppingImg from "@/assets/project/orebiShopping.png";
+import portfolioImg from "@/assets/project/portfolio.png";
+import portfolioImgTwo from "@/assets/project/portfolioTwo.png";
 // ================ Porject Images End here ======================
 
 export {
@@ -65,14 +63,10 @@ export {
   aboutUsImgThree,
   aboutUsImgTwo,
   // Project Image
-  projectEducare,
-  projectCyberBlog,
-  projectAmazonClone,
-  projectNoorShop,
-  projectOrebiShop,
-  projectPetroli,
-  projectModernPayment,
-  projectSaharaDemo,
-  projectHseDesign,
-  projectDynamicPortfolio,
+  eCommerceProImg,
+  movieStudioImg,
+  cyberBlogImg,
+  amazonCloneImg,
+  portfolioImg,
+  portfolioImgTwo,
 };

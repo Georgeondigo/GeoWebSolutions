@@ -26,10 +26,9 @@ const config: Config = {
         "2xl": "1400px",
       },
       backgroundImage: {
-        "reactBdBanner-backgroundOne": "url('/assets/reactBdBannerBgOne.webp')",
-        "reactBdBanner-backgroundTwo": "url('/assets/reactBdBannerBgTwo.webp')",
-        "reactBdBanner-backgroundThree":
-          "url('/assets/reactBdBannerBgThree.webp')",
+        bgOne: "url('/assets/bgOne.webp')",
+        bgTwo: "url('/assets/bgTwo.webp')",
+        bgThree: "url('/assets/bgThree.webp')",
         "reactBd-highPerformanceBg": "url('/assets/highPerformanceBg.webp')",
         "reactBd-titleBg": "url('/public/assets/titleBg.webp')",
       },
