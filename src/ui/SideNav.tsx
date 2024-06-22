@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineClose } from "react-icons/ai";
+// import { AiOutlineClose } from "react-icons/ai";
 
 const SideNav = () => {
   return (
@@ -13,9 +13,12 @@ const SideNav = () => {
         Quisque actraqum nunc no dolor sit amet augue dolor. Lorem ipsum dolor
         sit amet, consyect etur adipiscing elit.
       </p>
-      <span className="text-white text-lg absolute top-10 right-10 hover:cursor-pointer">
+      {/* <span
+        onClick={() => setToggleNav(false)}
+        className="text-white text-lg absolute top-10 right-10 animate-spin hover:animate-none hover:cursor-pointer"
+      >
         <AiOutlineClose />
-      </span>
+      </span> */}
     </div>
   );
 };

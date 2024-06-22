@@ -9,6 +9,7 @@ import { reactBdLogo } from "@/assets";
 import SideNav from "./SideNav";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { MdClose } from "react-icons/md";
 
 const navigation = [
   { title: "Home", link: "/" },
@@ -20,7 +21,9 @@ const navigation = [
 ];
 
 const Header = () => {
-  let [toggleNav, setToggleNav] = useState(false);
+  const [toggleNav, setToggleNav] = useState(false);
+  const [showSideNav, setShowSideNav] = useState(false);
+
   const pathname = usePathname();
 
   const [navSize, setNavSize] = useState("90px");
@@ -105,10 +108,19 @@ const Header = () => {
             {/* ================= Header Nav Link end here ====================== */}
             {/* ================= Header Emergency start here =================== */}
 
-            <div className="relative hidden text-xl w-11 h-11 lgl:flex flex-col gap-[6px] border-b-[1px] border-b-gray-500 border-t-[1px] border-t-gray-500 items-center justify-center group hover:cursor-pointer overflow-hidden menuBtn">
-              <span className="w-5 h-[1px] inline-flex bg-white"></span>
-              <span className="w-5 h-[1px] inline-flex bg-white"></span>
-              <span className="w-5 h-[1px] inline-flex bg-white"></span>
+            <div
+              onClick={() => setShowSideNav(!showSideNav)}
+              className="relative hidden text-xl w-11 h-11 lgl:flex flex-col gap-[6px] border-b-[1px] border-b-gray-500 border-t-[1px] border-t-gray-500 items-center justify-center group hover:cursor-pointer overflow-hidden menuBtn"
+            >
+              {!showSideNav ? (
+                <>
+                  <span className="w-5 h-[1px] inline-flex bg-white"></span>
+                  <span className="w-5 h-[1px] inline-flex bg-white"></span>
+                  <span className="w-5 h-[1px] inline-flex bg-white"></span>
+                </>
+              ) : (
+                <MdClose className="text-xl text-red-500" />
+              )}
 
               <span className="h-full w-[1px] bg-gray-500 inline-block absolute right-0 translate-y-8 group-hover:translate-y-0 transition-transform duration-300"></span>
               <span className="h-full w-[1px] bg-gray-500 inline-block absolute left-0 -translate-y-8 group-hover:translate-y-0 transition-transform duration-300"></span>
@@ -116,9 +128,11 @@ const Header = () => {
 
             {/* ================= Header Emergency end here ===================== */}
           </header>
-          {/* <div className="absolute right-0 sidenav translate-x-[100%]">
-            <SideNav />
-          </div> */}
+          {showSideNav && (
+            <div className="absolute right-0 translate-x-[100%]">
+              <SideNav />
+            </div>
+          )}
         </div>
       </nav>
       {/* ================= Navlink small screen start here ============= */}
