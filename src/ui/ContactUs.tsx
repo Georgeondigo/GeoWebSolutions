@@ -1,8 +1,17 @@
-import React from "react";
+"use client";
+import { useRouter } from "next/navigation";
 
-const ContactUs = ({ buttonData }: any) => {
+interface Props {
+  buttonData?: string;
+}
+
+const ContactUs = ({ buttonData }: Props) => {
+  const router = useRouter();
   return (
-    <div className="relative text-white w-44 h-12 border-t-[1px] border-t-secondaryColor border-b-[1px] border-b-secondaryColor group overflow-hidden">
+    <div
+      onClick={() => router.push("/contact")}
+      className="relative text-white w-44 h-12 border-t-[1px] border-t-secondaryColor border-b-[1px] border-b-secondaryColor group overflow-hidden"
+    >
       <button className="w-full h-full font-titleFont tracking-[2px] uppercase text-sm font-normal">
         {buttonData}
       </button>

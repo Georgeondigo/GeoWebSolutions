@@ -41,8 +41,6 @@ const faqData = [
 ];
 
 const Faq = () => {
-  let [qOne, setQOne] = useState(true);
-  let [qTwo, setQTwo] = useState(false);
   return (
     <div className="w-full">
       <TitleBanner
@@ -52,12 +50,12 @@ const Faq = () => {
       <div className="max-w-screen-2xl mx-auto flex flex-col mdl:flex-row justify-between gap-10 pb-20 pt-5 px-4">
         <div className="w-full mdl:w-3/4 flex flex-col gap-6">
           {/* ====================== Question 01 start here ======================== */}
-          <div className="w-full hover:cursor-pointer flex flex-col gap-4">
+          <div className="w-full flex flex-col gap-4">
             {faqData?.map((item) => (
               <Disclosure
                 key={item?._id}
                 as="div"
-                className="p-6"
+                className="p-6 hover:cursor-pointer"
                 defaultOpen={false}
               >
                 <DisclosureButton className="group relative flex w-full items-center justify-between">
@@ -73,7 +71,7 @@ const Faq = () => {
                     ></span>
                   </p>
 
-                  <span className="text-lg font-semibold text-white group-data-[open]:text-white">
+                  <span className="text-lg font-semibold text-white/80 group-data-[open]:text-white">
                     {item?.title}
                   </span>
                   <BiChevronDown className="size-6 fill-white/70 group-data-[hover]:fill-white/50 group-data-[open]:rotate-180" />
@@ -83,63 +81,8 @@ const Faq = () => {
                 </DisclosurePanel>
               </Disclosure>
             ))}
-
-            {/* <div
-              onClick={() => {
-                setQOne(!qOne);
-                setQTwo(false);
-              }}
-              className="w-full flex flex-col gap-4"
-            >
-              <div>
-                <p
-                  className={`relative w-full h-auto px-3 py-1 text-sm group-hover:text-white duration-300 ${
-                    qOne ? "text-white" : "text-borderColor"
-                  }`}
-                >
-                  01
-                  <span
-                    className={`w-full h-[.5px] absolute left-0 bottom-0 group-hover:bg-secondaryColor duration-500 ${
-                      qOne ? "bg-secondaryColor" : "bg-borderColor"
-                    }`}
-                  ></span>
-                  <span
-                    className={`w-[1px] h-[10px] absolute left-0 bottom-0 group-hover:bg-secondaryColor duration-500 ${
-                      qOne ? "bg-secondaryColor" : "bg-borderColor"
-                    }`}
-                  ></span>
-                </p>
-              </div>
-              <div className="flex flex-col gap-6 px-10">
-                <h3 className="text-2xl font-semibold flex items-center justify-between">
-                  Where is my order? {qOne ? <span>-</span> : <span>+</span>}
-                </h3>
-              </div>
-            </div>
-            {qOne && (
-              <motion.div
-                initial={{ y: -20, opacity: 0.5 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                transition={{
-                  delay: 0,
-                  x: { type: "just", stiffness: 120 },
-                  opacity: { duration: 0.5 },
-                  ease: "easeIn",
-                  duration: 0.4,
-                }}
-              >
-                <p className="px-10 text-base text-darkText">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Animi saepe autem nihil ex at sapiente voluptatum veritatis
-                  iure aliquid obcaecati.
-                </p>
-              </motion.div>
-            )} */}
           </div>
           {/* ====================== Question 01 end here ========================== */}
-          {/* ====================== Question 02 start here ========================== */}
-
-          {/* ====================== Question 02 end here ========================== */}
         </div>
         <div className="w-full mdl:w-1/4 font-titleFont">
           <h3 className="font-titleFont text-2xl underline underline-offset-4 decoration-[1px] decoration-secondaryColor">

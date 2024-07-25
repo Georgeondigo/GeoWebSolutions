@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import TitleBanner from "@/ui/TitleBanner";
 import ServicesDetails from "@/ui/ServicesDetails";
 
-const srevicesData = [
+const servicesData = [
   {
     no: "01",
     title: "Portfolio making",
@@ -154,7 +154,7 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          {srevicesData.map((item) => (
+          {servicesData.map((item) => (
             <ServicesDetails
               key={item?.no}
               no={item?.no}
@@ -185,7 +185,7 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          {srevicesData.map((item) => (
+          {servicesData.map((item) => (
             <ServicesDetails
               key={item?.no}
               no={item?.no}
@@ -216,7 +216,7 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          {srevicesData.map((item) => (
+          {servicesData.map((item) => (
             <ServicesDetails
               key={item?.no}
               no={item?.no}
@@ -247,7 +247,7 @@ const Services = () => {
           }}
           className="max-w-screen-2xl mx-auto pb-20 font-titleFont flex justify-center items-center flex-1 flex-wrap gap-6 px-4"
         >
-          {srevicesData.map((item) => (
+          {servicesData.map((item) => (
             <ServicesDetails
               key={item?.no}
               no={item?.no}
