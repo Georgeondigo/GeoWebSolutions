@@ -30,7 +30,6 @@ import eCommerceProImg from "@/assets/project/eCommercePro.png";
 import movieStudioImg from "@/assets/project/movieStudio.png";
 import cyberBlogImg from "@/assets/project/cyberBlog.webp";
 import amazonCloneImg from "@/assets/project/amazonClone.png";
-import orebiShoppingImg from "@/assets/project/orebiShopping.png";
 import portfolioImg from "@/assets/project/portfolio.png";
 import portfolioImgTwo from "@/assets/project/portfolioTwo.png";
 // ================ Porject Images End here ======================

@@ -6,6 +6,7 @@ import { BsPhoneFill } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import TitleBanner from "@/ui/TitleBanner";
 import ContactForm from "@/ui/ContactForm";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   // ============== Error message start here ==============
@@ -29,9 +30,14 @@ const Contact = () => {
           </div>
           <div>
             {successMessage ? (
-              <p className="font-titleFont text-lg px-10 text-green-400">
+              <motion.p
+                initial={{ y: 40, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                className="font-titleFont text-lg px-10 text-green-400"
+              >
                 {successMessage}
-              </p>
+              </motion.p>
             ) : (
               <ContactForm setSuccessMessage={setSuccessMessage} />
             )}

@@ -31,8 +31,6 @@ const ContactForm = ({ setSuccessMessage }: any) => {
       setSuccessMessage(
         `Hello dear ${username}. We received your message successfully. Additional details will send to you by your email at ${email} and our responsible personnel will contact you shortly. Thank you for your time.`
       );
-
-      console.log(emailValidation);
     }
   };
   return (
@@ -41,11 +39,6 @@ const ContactForm = ({ setSuccessMessage }: any) => {
         <h4 className="text-secondaryColor text-lg mdl:text-xl mb-2">
           Contact Form
         </h4>
-        {errMessage && (
-          <h4 className="text-red-500 text-base bg-gray-900 px-4 font-semibold mb-2 animate-bounce">
-            {errMessage} !
-          </h4>
-        )}
       </div>
       <div className="flex flex-col gap-1 text-base text-gray-100 font-titleFont">
         <input
@@ -74,6 +67,11 @@ const ContactForm = ({ setSuccessMessage }: any) => {
           placeholder="YOUR MESSAGE"
         />
       </div>
+      {errMessage && (
+        <h4 className="text-red-500 text-base text-center mt-10 py-1 rounded-sm bg-white px-4 font-semibold">
+          {errMessage} !
+        </h4>
+      )}
       <button
         onClick={handleSendDetails}
         className="relative w-full text-lg font-semibold uppercase font-titleFont active:bg-secondaryColor tracking-[4px] border p-2 border-gray-800 mt-8 overflow-hidden group"

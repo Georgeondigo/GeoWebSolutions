@@ -11,7 +11,7 @@ const servicesData = [
   {
     no: "01",
     title: "Portfolio making",
-    startingAmt: "3000",
+    startingAmt: "300.00",
     detailsOne: "Fully designed components",
     detailsTwo: "Highly Responsive",
     detailsThree: "Single page Application",
@@ -21,7 +21,7 @@ const servicesData = [
   {
     no: "02",
     title: "Single page Website",
-    startingAmt: "5000",
+    startingAmt: "500.00",
     detailsOne: "Fully designed components",
     detailsTwo: "Highly Responsive",
     detailsThree: "Single page Application",
@@ -31,7 +31,7 @@ const servicesData = [
   {
     no: "03",
     title: "Chatting App",
-    startingAmt: "15000",
+    startingAmt: "1500.00",
     detailsOne: "Fully designed components",
     detailsTwo: "Highly Responsive",
     detailsThree: "Single page Application",
@@ -41,7 +41,7 @@ const servicesData = [
   {
     no: "04",
     title: "E-commerce website",
-    startingAmt: "20000",
+    startingAmt: "2000.00",
     detailsOne: "Fully designed components",
     detailsTwo: "Highly Responsive",
     detailsThree: "Single page Application",

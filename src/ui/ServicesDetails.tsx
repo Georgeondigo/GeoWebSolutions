@@ -48,7 +48,7 @@ const ServicesDetails = ({
             Starting from:
           </p>
           <h2 className="text-4xl font-bodyFont mt-1 font-semibold">
-            BDT {startingAmt}
+            USD {startingAmt}
           </h2>
         </div>
         <div>
