@@ -157,7 +157,7 @@ const Header = () => {
                 Home
               </li>
             </Link>
-            <Link href="/aboutus">
+            <Link href="/about">
               <li
                 onClick={() => setToggleNav(false)}
                 className="px-3 hover:cursor-pointer py-2 border-b-[1px] border-b-borderColor hover:text-secondaryColor hover:border-b-secondaryColor transition-hover duration-500"

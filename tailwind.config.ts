@@ -38,6 +38,9 @@ const config: Config = {
       boxShadow: {
         customShadowOne: "0px 0px 15px 1px rgba(0,0,0,0.88);",
       },
+      fontFamily: {
+        bodyFont: ["Poppins"],
+      },
     },
   },
   plugins: [],
