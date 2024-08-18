@@ -1,4 +1,4 @@
-import reactBdLogo from "./reactBdLogo.png";
+import reactBdLogo from "./geoweblogo.png";
 import clientOne from "./clientsImg/clientOne.webp";
 import clientTwo from "./clientsImg/clientTwo.webp";
 import clientThree from "./clientsImg/clientThree.webp";
@@ -26,12 +26,12 @@ import aboutUsImgTwo from "./pages/aboutUs/aboutUsImgTwo.webp";
 import aboutUsImgThree from "./pages/aboutUs/aboutUsImgThree.webp";
 // ================ Porject Images Start here ====================
 
-import eCommerceProImg from "@/assets/project/eCommercePro.png";
-import movieStudioImg from "@/assets/project/movieStudio.png";
-import cyberBlogImg from "@/assets/project/cyberBlog.webp";
-import amazonCloneImg from "@/assets/project/amazonClone.png";
-import portfolioImg from "@/assets/project/portfolio.png";
-import portfolioImgTwo from "@/assets/project/portfolioTwo.png";
+import eCommerceProImg from "@/assets/project/S-O-Odingo-Co-Advocates.png";
+import movieStudioImg from "@/assets/project/soodingoadvocates.png";
+import cyberBlogImg from "@/assets/project/GeorgeOndigo.png";
+import amazonCloneImg from "@/assets/project/S-O-Odingo-Co-Advocates.png";
+import portfolioImg from "@/assets/project/soodingoadvocates.png";
+import portfolioImgTwo from "@/assets/project/GeorgeOndigo.png";
 // ================ Porject Images End here ======================
 
 export {

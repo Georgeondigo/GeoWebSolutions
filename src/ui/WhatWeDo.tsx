@@ -28,8 +28,8 @@ const WhatWeDo = () => {
                 01
               </span>
               <p className="text-base text-darkText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                dolor exercitationem temporibus dolorem. Repudiandae ipsum!!
+              Data-Driven Insights.
+              Our analytics platform provides in-depth insights into your website’s performance. We track key metrics, analyze user behavior, and identify growth opportunities, helping you make informed decisions to boost your online presence.
               </p>
             </div>
             <div className="flex gap-10 w-full md:w-4/5">
@@ -37,8 +37,8 @@ const WhatWeDo = () => {
                 02
               </span>
               <p className="text-base text-darkText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-                dolor exercitationem temporibus dolorem. Repudiandae ipsum!!
+              Customized Solutions
+              We specialize in creating tailored strategies that align with your business goals. From SEO optimization to conversion rate improvement, our solutions are designed to drive results and elevate your digital strategy.
               </p>
             </div>
           </div>

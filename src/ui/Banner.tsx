@@ -6,7 +6,7 @@ const Banner = () => {
   const sliderContent = [
     {
       title: "WEB DESIGN & DEVELOPMENT COMPANY",
-      desTitle: "ReactBD",
+      desTitle: "GeoWeb",
       des: "is a web development company whose aim is to help businesses of all sizes to bring their business online. Our digital strategy helps startups and enterprise businesses to sustain their brands on the internet ecosystem.",
       backgroundClass: "bg-bgOne",
     },

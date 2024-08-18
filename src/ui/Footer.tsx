@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="max-w-screen-2xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8 py-10 border-t border-t-borderColor">
       <div className="flex flex-col gap-4">
         <h2 className="font-titleFont text-2xl font-normal tracking-wider">
-          ReactBD
+          GeoWeb 
         </h2>
         <p className="text-base text-darkText tracking-wide">
           Lorem ipsum dolor sit amet, consyect etur adipiscing elit. Quisque
