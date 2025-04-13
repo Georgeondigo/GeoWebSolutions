@@ -28,7 +28,7 @@ import aboutUsImgThree from "./pages/aboutUs/aboutUsImgThree.webp";
 
 import eCommerceProImg from "@/assets/project/S-O-Odingo-Co-Advocates.png";
 import movieStudioImg from "@/assets/project/soodingoadvocates.png";
-import cyberBlogImg from "@/assets/project/GeorgeOndigo.png";
+import cyberBlogImg from "@/assets/project/WATAMA-LAW-ADVOCATES.png";
 import amazonCloneImg from "@/assets/project/S-O-Odingo-Co-Advocates.png";
 import portfolioImg from "@/assets/project/soodingoadvocates.png";
 import portfolioImgTwo from "@/assets/project/GeorgeOndigo.png";

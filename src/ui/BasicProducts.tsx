@@ -35,8 +35,9 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            React.js is a popular JavaScript library for building user interfaces, 
+            particularly for single-page applications. It allows developers to create 
+            large web applications that can update and render efficiently.
           </p>
         </div>
       </div>
@@ -63,8 +64,9 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            React Native enables you to build mobile apps using only JavaScript, 
+            leveraging React but targeting mobile platforms. It allows the same 
+            codebase for both Android and iOS, drastically reducing development time.
           </p>
         </div>
       </div>
@@ -89,8 +91,9 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Next.js is a powerful React framework that allows developers to build 
+            fast, user-friendly websites with server-side rendering, static generation, 
+            and many performance-enhancing features built in.
           </p>
         </div>
       </div>
@@ -117,8 +120,9 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Tailwind CSS is a highly customizable, utility-first CSS framework 
+            that gives developers a clean and efficient way to style web applications 
+            by writing minimal custom CSS.
           </p>
         </div>
       </div>
@@ -135,16 +139,18 @@ const BasicProducts = () => {
             <Image src={iconEight} alt="iconEight" />
           </div>
           <div className="font-titleFont">
-            <h3 className="text-2xl font-semibold tracking-wider">Sanity.io</h3>
+            <h3 className="text-2xl font-semibold tracking-wider">WordPress</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Content Is Data
+             Manage your Website
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            WordPress is an open-source content management system (CMS) used by 
+            millions of websites worldwide. It's known for its flexibility and ease 
+            of use, allowing users to manage content and customize their site through 
+            a wide range of plugins and themes.
           </p>
         </div>
       </div>
@@ -169,8 +175,9 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Firebase is a comprehensive app development platform that allows you 
+            to build, improve, and grow your apps with features like authentication, 
+            databases, machine learning, and analytics.
           </p>
         </div>
       </div>
@@ -195,8 +202,9 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Vercel is a platform built to host and deploy Next.js applications, 
+            providing features like edge caching, scalability, and performance 
+            optimizations for your websites.
           </p>
         </div>
       </div>
@@ -221,8 +229,9 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            Netlify is a platform for automating modern web projects. It provides 
+            continuous deployment, serverless backend services, and powerful add-ons 
+            for static sites, making it an ideal choice for JAMstack applications.
           </p>
         </div>
       </div>

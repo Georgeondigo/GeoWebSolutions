@@ -18,8 +18,10 @@ const HighPerformance = () => {
           </div>
           <div>
             <p className="w-full lg:pr-44 text-base text-center lg:text-left text-darkText">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
-              voluptas impedit nihil veritatis, quas illum!
+               We offer high-performance SQL server instances designed to handle your 
+               data analytics needs. Leverage optimized SQL databases to run complex 
+               queries, gain valuable insights, and ensure smooth performance for 
+               large-scale data operations.
             </p>
           </div>
           <div className="flex justify-center lg:justify-start">
