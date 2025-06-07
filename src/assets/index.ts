@@ -26,11 +26,11 @@ import aboutUsImgTwo from "./pages/aboutUs/aboutUsImgTwo.webp";
 import aboutUsImgThree from "./pages/aboutUs/aboutUsImgThree.webp";
 // ================ Porject Images Start here ====================
 
-import eCommerceProImg from "@/assets/project/S-O-Odingo-Co-Advocates.png";
+import eCommerceProImg from "@/assets/project/Lixnet-Technologies.png";
 import movieStudioImg from "@/assets/project/soodingoadvocates.png";
 import cyberBlogImg from "@/assets/project/WATAMA-LAW-ADVOCATES.png";
 import amazonCloneImg from "@/assets/project/S-O-Odingo-Co-Advocates.png";
-import portfolioImg from "@/assets/project/soodingoadvocates.png";
+import portfolioImg from "@/assets/project/inventory.png";
 import portfolioImgTwo from "@/assets/project/GeorgeOndigo.png";
 // ================ Porject Images End here ======================
 
