@@ -148,7 +148,7 @@ const BasicProducts = () => {
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
             WordPress is an open-source content management system (CMS) used by 
-            millions of websites worldwide. It's known for its flexibility and ease 
+            millions of websites worldwide. Its known for its flexibility and ease 
             of use, allowing users to manage content and customize their site through 
             a wide range of plugins and themes.
           </p>
