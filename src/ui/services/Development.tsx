@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { GiCheckMark } from "react-icons/gi";
-import { projectThreeImg } from "@/assets";
+import { projectThreeImg } from "../../assets";
 import Image from "next/image";
 
 const Development = () => {

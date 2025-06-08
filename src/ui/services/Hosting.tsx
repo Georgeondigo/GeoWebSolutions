@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { GiCheckMark } from "react-icons/gi";
-import { projectOneImg } from "@/assets";
+import { projectOneImg } from "../../assets";
 import Image from "next/image";
 
 const Hosting = () => {

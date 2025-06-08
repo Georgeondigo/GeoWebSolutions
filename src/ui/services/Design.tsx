@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { GiCheckMark } from "react-icons/gi";
-import { projectTwoImg } from "@/assets";
+import { projectTwoImg } from "../../assets";
 import Image from "next/image";
 
 const Design = () => {

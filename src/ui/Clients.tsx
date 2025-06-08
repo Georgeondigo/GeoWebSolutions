@@ -6,7 +6,7 @@ import {
   clientFour,
   clientFive,
   clientSix,
-} from "@/assets";
+} from "../../public/assets";
 import Image from "next/image";
 
 const Clients = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { GiCheckMark } from "react-icons/gi";
-import { aboutUsImgThree } from "@/assets";
+import { aboutUsImgThree } from "../../assets";
 import Image from "next/image";
 
 const PickDomain = () => {
