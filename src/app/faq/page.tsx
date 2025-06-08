@@ -14,29 +14,35 @@ import {
 import { BiChevronDown } from "react-icons/bi";
 
 const faqData = [
-  {
+   {
     _id: "01",
-    title: "How to order from here?",
+    title: "What kind of services does GeoWeb Solutions offer?",
     subTitle:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sit corporis labore possimus blanditiis sed quo deserunt asperiores molestiae commodi.",
+      "We provide web development, mobile app development, UI/UX design, cloud deployment, and custom software solutions tailored to businesses of all sizes.",
   },
   {
     _id: "02",
-    title: "Is services are applicable for me?",
+    title: "Are your websites mobile-friendly?",
     subTitle:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sit corporis labore possimus blanditiis sed quo deserunt asperiores molestiae commodi.",
+      "Absolutely. We prioritize responsive design to ensure our websites look and function seamlessly across all devices, including phones and tablets.",
   },
   {
     _id: "03",
-    title: "How long it will take to delivery?",
+    title: "How long does it take to complete a project?",
     subTitle:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sit corporis labore possimus blanditiis sed quo deserunt asperiores molestiae commodi.",
+      "Project timelines depend on scope and complexity. A standard business website typically takes 2–4 weeks, while larger systems may take 6–12 weeks.",
+  },
+  {
+    _id: "04",
+    title: "Do you provide ongoing support and maintenance?",
+    subTitle:
+      "Yes, we offer post-launch support packages for updates, backups, performance optimization, security patches, and technical assistance.",
   },
   {
     _id: "05",
-    title: "Where is my Order?",
+    title: "Can I see examples of your past work?",
     subTitle:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam sit corporis labore possimus blanditiis sed quo deserunt asperiores molestiae commodi.",
+      "Yes, you can visit our portfolio section or explore live demos on our website to view completed projects across various industries.",
   },
 ];
 
