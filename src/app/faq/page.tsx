@@ -96,7 +96,7 @@ const Faq = () => {
           </h3>
           <div className="mt-4 flex flex-col gap-8">
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Bangladesh :</h4>
+              <h4 className="text-lg uppercase">Nairobi :</h4>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
