@@ -12,7 +12,7 @@ const servicesData = {
     {
       no: "01",
       title: "Portfolio Website",
-      startingAmt: "300.00",
+      startingAmt: "18000",
       detailsOne: "Modern design templates",
       detailsTwo: "Mobile responsive",
       detailsThree: "Fast loading pages",
@@ -22,7 +22,7 @@ const servicesData = {
     {
       no: "02",
       title: "Single Page Web App",
-      startingAmt: "500.00",
+      startingAmt: "20000",
       detailsOne: "Interactive UI",
       detailsTwo: "React or Vue based",
       detailsThree: "API integration",
@@ -32,7 +32,7 @@ const servicesData = {
     {
       no: "03",
       title: "E-Commerce Website",
-      startingAmt: "800.00",
+      startingAmt: "45000",
       detailsOne: "Product catalog",
       detailsTwo: "Shopping cart & checkout",
       detailsThree: "Admin dashboard",
@@ -42,7 +42,7 @@ const servicesData = {
     {
       no: "04",
       title: "Custom Web App",
-      startingAmt: "1000.00",
+      startingAmt: "55000",
       detailsOne: "Tailored to your needs",
       detailsTwo: "Advanced functionality",
       detailsThree: "Database integration",
@@ -54,7 +54,7 @@ const servicesData = {
     {
       no: "01",
       title: "UI/UX Design",
-      startingAmt: "250.00",
+      startingAmt: "5000",
       detailsOne: "Wireframes & mockups",
       detailsTwo: "Modern UI trends",
       detailsThree: "User flow optimization",
@@ -64,7 +64,7 @@ const servicesData = {
     {
       no: "02",
       title: "Mobile App Design",
-      startingAmt: "300.00",
+      startingAmt: "15000",
       detailsOne: "iOS & Android UI",
       detailsTwo: "Material Design & HIG",
       detailsThree: "User-centered design",
@@ -74,7 +74,7 @@ const servicesData = {
     {
       no: "03",
       title: "Brand Identity",
-      startingAmt: "200.00",
+      startingAmt: "7000",
       detailsOne: "Logo design",
       detailsTwo: "Color palette",
       detailsThree: "Typography guide",
@@ -84,7 +84,7 @@ const servicesData = {
     {
       no: "04",
       title: "Landing Page Design",
-      startingAmt: "180.00",
+      startingAmt: "4000",
       detailsOne: "High-conversion layout",
       detailsTwo: "CTA optimization",
       detailsThree: "Graphics and icons",
@@ -96,7 +96,7 @@ const servicesData = {
     {
       no: "01",
       title: "Domain Search & Registration",
-      startingAmt: "100.00",
+      startingAmt: "1700",
       detailsOne: "Free consultation",
       detailsTwo: "ICANN-accredited partner",
       detailsThree: "Instant setup",
@@ -106,7 +106,7 @@ const servicesData = {
     {
       no: "02",
       title: "DNS Configuration",
-      startingAmt: "80.00",
+      startingAmt: "2000",
       detailsOne: "Custom records (A, MX, CNAME)",
       detailsTwo: "Email routing setup",
       detailsThree: "Subdomain configuration",
@@ -116,7 +116,7 @@ const servicesData = {
     {
       no: "03",
       title: "Domain Transfer",
-      startingAmt: "120.00",
+      startingAmt: "1000",
       detailsOne: "Secure transfer process",
       detailsTwo: "Zero downtime",
       detailsThree: "WHOIS updates",
@@ -126,7 +126,7 @@ const servicesData = {
     {
       no: "04",
       title: "Email Domain Setup",
-      startingAmt: "90.00",
+      startingAmt: "2500",
       detailsOne: "Google Workspace or Zoho",
       detailsTwo: "SPF/DKIM/DMARC setup",
       detailsThree: "Webmail support",
@@ -138,7 +138,7 @@ const servicesData = {
     {
       no: "01",
       title: "Shared Hosting",
-      startingAmt: "150.00",
+      startingAmt: "3000",
       detailsOne: "cPanel included",
       detailsTwo: "1 GB SSD space",
       detailsThree: "Unlimited bandwidth",
@@ -148,7 +148,7 @@ const servicesData = {
     {
       no: "02",
       title: "VPS Hosting",
-      startingAmt: "500.00",
+      startingAmt: "2000",
       detailsOne: "Dedicated resources",
       detailsTwo: "Root access",
       detailsThree: "SSH enabled",
@@ -158,7 +158,7 @@ const servicesData = {
     {
       no: "03",
       title: "Cloud Hosting",
-      startingAmt: "700.00",
+      startingAmt: "5000",
       detailsOne: "AWS / GCP / Azure",
       detailsTwo: "Scalable infrastructure",
       detailsThree: "Monitoring tools",
@@ -168,7 +168,7 @@ const servicesData = {
     {
       no: "04",
       title: "WordPress Hosting",
-      startingAmt: "200.00",
+      startingAmt: "3500",
       detailsOne: "Pre-installed WordPress",
       detailsTwo: "Auto updates & backup",
       detailsThree: "Themes & plugins ready",
