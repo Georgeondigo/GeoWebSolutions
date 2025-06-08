@@ -1,11 +1,9 @@
-import {
-  eCommerceProImg,
-  movieStudioImg,
-  cyberBlogImg,
-  amazonCloneImg,
-  portfolioImg,
-  portfolioImgTwo,
-} from "../../public/assets/index";
+const eCommerceProImg = "/assets/project/Lixnet-Technologies.png";
+const movieStudioImg = "/assets/project/soodingoadvocates.png";
+const cyberBlogImg = "/assets/project/WATAMA-LAW-ADVOCATES.png";
+const amazonCloneImg = "/assets/project/S-O-Odingo-Co-Advocates.png";
+const portfolioImg = "/assets/project/inventory.png";
+const portfolioImgTwo = "/assets/project/GeorgeOndigo.png";
 
 // =================== Project Data start here ======================
 export let projectsData = [
