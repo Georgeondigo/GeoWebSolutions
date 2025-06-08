@@ -95,56 +95,29 @@ const Faq = () => {
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
                 </span>
-                Rupnogor Abashik Area, <br />
-                Mirpur-1, Dhaka.
+                Nairobi, <br />
+                Kenya.
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <MdMarkEmailUnread />
                 </span>
-                reactjsbd@gmail.com
+                info@geowebsolutions.co.ke
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <BsPhoneFill />
                 </span>
-                +968 97859628
+               +254 111 294 844
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <IoLogoWhatsapp />
                 </span>
-                +968 97859628
+                +254 111 294 844
               </p>
             </div>
-            <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Oman :</h4>
-              <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
-                <span className="text-secondaryColor text-lg">
-                  <FaHome />
-                </span>
-                Muscat Business Area, Ruwi, <br />
-                Muscat, Sultanate of Oman
-              </p>
-              <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
-                <span className="text-secondaryColor text-lg">
-                  <MdMarkEmailUnread />
-                </span>
-                reactjsbd@gmail.com
-              </p>
-              <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
-                <span className="text-secondaryColor text-lg">
-                  <BsPhoneFill />
-                </span>
-                +968 97859628
-              </p>
-              <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
-                <span className="text-secondaryColor text-lg">
-                  <IoLogoWhatsapp />
-                </span>
-                +968 97859628
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>
