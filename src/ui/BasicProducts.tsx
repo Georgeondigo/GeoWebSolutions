@@ -8,7 +8,7 @@ import {
   iconNine,
   iconTen,
   iconEleven,
-} from "@/assets";
+} from "../../public/assets";
 import Image from "next/image";
 
 const BasicProducts = () => {

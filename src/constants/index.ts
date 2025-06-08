@@ -5,7 +5,7 @@ import {
   amazonCloneImg,
   portfolioImg,
   portfolioImgTwo,
-} from "../assets/index";
+} from "../../public/assets/index";
 
 // =================== Project Data start here ======================
 export let projectsData = [
